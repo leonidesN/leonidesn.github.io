@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Portifolio Leonides Neto</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700&display=swap" rel="stylesheet">
+    <!-- Dev icon fonts -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    
+          
 </head>
+
 <body>
-    <h1>Leonides Neto</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Leonides Neto</h2>
+            <img id="bio-image" src="img/profile.png" alt="Leonides Neto">
+            <p>Olá, meu nome é Leonides Neto e sou <span class="highlight">Desenvolvedor FullStack</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:neto182leon@gmail.com">neto182leon@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Leonides Neto</h1>
+            <p id="title"><span class="highlight">Desenvolvedor FullStack</span></p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet urna at est semper, id sagittis nisi porta. In porttitor justo ut lacinia molestie. Aenean ultricies tortor ac tellus finibus, sed lobortis mi maximus. Vestibulum placerat et eros ut laoreet. <span class="highlight">Donec laoreet sed mi ut</span> scelerisque. Vivamus interdum diam sed sem tempor efficitur.</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet urna at est semper, id sagittis nisi porta. In porttitor justo ut lacinia molestie. Aenean ultricies tortor ac tellus finibus, sed lobortis mi maximus. Vestibulum placerat et eros ut laoreet. <span class="highlight">Donec laoreet sed mi ut</span> scelerisque. Vivamus interdum diam sed sem tempor efficitur.</p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skill-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-postgresql-plain colored"></i>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title">Back-end Frameworks</p>
+                    <i class="devicon-spring-plain colored"></i>
+                    <i class="devicon-laravel-plain colored"></i>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-eclipse-plain colored"></i>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Ion icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
